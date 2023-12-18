@@ -1,0 +1,20 @@
+/* ==========================================
+    FOR DEMO PURPOSE
+  ========================================== */
+  
+  .text-small {
+    font-size: 0.9rem;
+  }
+  
+  .form-control {
+    background: #212529;
+    border-color: #545454;
+  }
+  
+  .form-control:focus {
+    background: #212529;
+  }
+  
+  footer {
+    background: #212529;
+  }
