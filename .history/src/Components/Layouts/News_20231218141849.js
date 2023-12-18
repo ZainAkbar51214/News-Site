@@ -96,7 +96,7 @@ class News extends Component {
                     }
                     <div className='row'>
                         {!this.state.loading && this.state.articles.map((element) => {
-                           return element.urlToImage?<div className='col-lg-4 col-md-6 mt-5' key={element.url}>
+                           return element.urlToImage<div className='col-lg-4 col-md-6 mt-5' key={element.url}>
                            <NewsItem title={element.title?element.title.slice(0, 45): ""} description={element.description?element.description.slice(0, 86): ""} imageUrl={element.urlToImage} newsUrl={element.url} />
                        </div> 
                        :null
